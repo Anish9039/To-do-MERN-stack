@@ -1,10 +1,31 @@
 .home{
     display: flex;
     flex-direction: column;
+
+}
+
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.checkbox{
+    display: flex;
     align-items: center;
 }
 
-.create_form input{
-    width: 300px;
-    padding: 10px;
+.checkbox .icon{
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.bar div span {
+    margin: 0px 5px 0px 4px;
+}
+
+.checkbox .delete{
+    cursor: pointer;
 }
