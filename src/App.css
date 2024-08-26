@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.line-through{
+    text-decoration: line-through;
+}
+
 .checkbox .icon{
     margin-right: 5px;
     font-size: 15px;
@@ -29,3 +33,4 @@
 .checkbox .delete{
     cursor: pointer;
 }
+
